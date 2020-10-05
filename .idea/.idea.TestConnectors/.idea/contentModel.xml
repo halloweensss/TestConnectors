@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\zumik\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\zumik\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_TestConnectors.363312532.00" t="ExcludeRecursive" />
+    <e p="S:\Programms\Unity\GAME\TestConnectors" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="CameraFollow.cs" t="Include" />
+          <e p="LinkingObjects.cs" t="Include" />
+          <e p="LinkObjectsController.cs" t="Include" />
+          <e p="Main.cs" t="Include" />
+          <e p="ObjectController.cs" t="Include" />
+          <e p="ObjectsManager.cs" t="Include" />
+          <e p="PlatformMovement.cs" t="Include" />
+          <e p="SphereController.cs" t="Include" />
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+      <e p="TestConnectors.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
