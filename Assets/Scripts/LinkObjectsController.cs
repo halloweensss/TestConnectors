@@ -30,8 +30,13 @@ public class LinkObjectsController : MonoBehaviour
       if (_firstObject != null && _firstObject != objectController && objectController != null)
       {
          _firstObject.GetLinkingObjects().Add(_secondObject);
+         Clear();
       }
-      Clear();
+
+      if (_firstObject == null && _secondObject == null)
+      {
+         Clear();
+      }
    }
 
    private void ClearPossibleLink(ObjectController objectController)
@@ -123,7 +128,6 @@ public class LinkObjectsController : MonoBehaviour
 
       if (Input.GetMouseButtonUp(0))
       {
-         _mouseDown = false;
          if (!CheckObject())
          {
             Clear();
@@ -132,7 +136,7 @@ public class LinkObjectsController : MonoBehaviour
          {
             ConnectPossibleLink(_secondObject);
          }
-         
+         _mouseDown = false;
       }
    }
 
