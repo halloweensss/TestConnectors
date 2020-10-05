@@ -30,8 +30,8 @@ public class LinkObjectsController : MonoBehaviour
       if (_firstObject != null && _firstObject != objectController && objectController != null)
       {
          _firstObject.GetLinkingObjects().Add(_secondObject);
-         Clear();
       }
+      Clear();
    }
 
    private void ClearPossibleLink(ObjectController objectController)
